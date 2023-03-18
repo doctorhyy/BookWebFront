@@ -1,0 +1,108 @@
+.all_head {
+    color: #b48be9;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-family: YouSheBiaoTiHei;
+}
+
+/*boxs start*/
+.extend_bac {
+    width: 1200px;
+    text-align: center;
+}
+
+.image {
+    width: 248px;
+    height: 124px;
+    overflow: hidden;
+}
+.image img {
+        width: 248px;
+        height: 124px;
+}
+.image img:hover {
+        transform: scale(1.1);
+        transition: .3s;
+}
+
+.title h4 {
+    font-size: 16px;
+    color: #050505;
+    text-align: left;
+}
+
+.title {
+    padding: 0px 3px;
+    width: 244px;
+    height: 75.3px;
+}
+.title p {
+        font-size: 12px;
+        color: #050505;
+        /*text-overflow: -o-ellipsis-lastline;*/
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        text-align: left;
+}
+
+.date {
+    padding: 0 3px;
+    width: 244px;
+    height: 50.7px;
+    font-size: 8px;
+    color: #614326;
+    text-align: left;
+}
+.date span {
+        display: inline-block;
+        margin-top: 22px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.extend_bac li {
+    margin-top:20px;
+    width: 248px;
+    height: 260.5px;
+    border-radius: 6px;
+    background-color: #fff;
+    overflow:hidden;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, .6);
+}
+
+.box {
+    margin-top: 15px;
+}
+
+.box-hd {
+    height: 60px;
+    line-height: 60px;
+    /*background-color: pink;*/
+}
+
+    .box-hd h3 {
+        float: left;
+        font-size: 20px;
+        color: #494949;
+        /*让粗体不加粗 400 == normal*/
+        font-weight: 400;
+    }
+
+    .box-hd a {
+        float: right;
+        margin-right: 30px;
+        font-size: 12px;
+        color: #a5a5a5;
+    }
+
+/*boxs end*/
+
+#DataList1{
+    display:inline-block;
+}

@@ -1,0 +1,56 @@
+/*该页面为登录页面的css*/
+/*控制登录框位置*/
+.re {
+    padding-left: 330px;
+}
+/*控制题头*/
+.re_head {
+    color: #b48be9;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-family: YouSheBiaoTiHei;
+}
+
+.inline_block {
+    width: 150px;
+    height: 40px;
+    display: inline-block;
+    text-align: right;
+    line-height: 40px;
+}
+/*使每个div之间距离上面的高度为20px*/
+.re div {
+    margin-bottom: 20px;
+}
+/*拉开用户名和上面文字距离*/
+.username {
+    margin-top: 60px;
+}
+/*输入框设置*/
+.textInput {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #b48be9;
+    color: #ccc;
+    vertical-align: middle;
+    font-size: 20px;
+}
+/*控制盒子*/
+.but {
+    margin-left: 150px;
+}
+
+#Button1 {
+    background-color: #b48be9;
+    width: 229px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+#Button1:hover {
+    cursor: pointer;
+}

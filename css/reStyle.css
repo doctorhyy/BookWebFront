@@ -1,0 +1,58 @@
+.re {
+    padding-left:330px;
+}
+.re_head {
+    color:#b48be9;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-family: YouSheBiaoTiHei;
+}
+.inline_block {
+    width:150px;
+    height:40px;
+    display: inline-block;
+    text-align:right;
+    line-height:40px;
+}
+.re div{
+    margin-bottom:20px;
+}
+.username {
+    margin-top:60px;
+}
+.textInput {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #b48be9;
+    color: #ccc;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.sexTitle{
+    margin-right:30px;
+}
+.sexRadio{
+    display:inline-block;
+}
+.but {
+    margin-left: 150px;
+}
+#Button1 {
+    background-color: #b48be9;
+    width: 229px;
+    height: 48px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+
+#Button1:hover{
+    cursor:pointer;
+}
+
+.log {
+    display:inline-block;
+    margin-left:50px;
+}

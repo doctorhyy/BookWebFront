@@ -1,0 +1,204 @@
+/*css 初始化代码 css reset*/
+/*common.css包含了头尾和版心的设置*/
+
+/*清除元素默认的内外边距*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*清除列表样式*/
+
+li {
+    list-style: none;
+}
+
+i, em {
+    font-style: normal;
+}
+
+
+/*取消表单的轮廓线*/
+
+input {
+    outline: none;
+}
+
+
+/*去掉button 默认自带的边框*/
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    background-color: #f3f5f7;
+    /*方便写代码 一会别忘了删除*/
+    /*height: 3000px;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*清除浮动的*/
+
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?7kkyc2') format('truetype'), url('../fonts/icomoon.woff?7kkyc2') format('woff'), url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/*版心 1200 水平居中*/
+
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+
+/*header start*/
+
+.header {
+    height: 42px;
+    /*background-color: pink;*/
+    margin: 30px auto;
+}
+
+.logo {
+    float: left;
+    margin-right: 60px;
+}
+
+.nav {
+    float: left;
+}
+
+    .nav ul li {
+        float: left;
+    }
+
+        .nav ul li a {
+            display: block;
+            height: 40px;
+            padding: 0 10px;
+            margin-right: 20px;
+            line-height: 40px;
+            font-size: 18px;
+            color: #050505;
+            text-decoration: none;
+        }
+
+
+            /*鼠标经过链接 才有底边框*/
+
+            .nav ul li a:hover {
+                border-bottom: 2px solid #b48be9;
+            }
+
+.search {
+    float: left;
+    margin-left: 70px;
+}
+
+    .search input {
+        float: left;
+        width: 340px;
+        height: 40px;
+        border: 1px solid #b48be9;
+        border-right: 0;
+        padding-left: 20px;
+        color: #ccc;
+    }
+
+    .search button {
+        float: left;
+        width: 50px;
+        height: 42px;
+        background: url(../images/btn.png);
+    }
+
+.user {
+    float: left;
+    height: 42px;
+    line-height: 42px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+
+/*footer*/
+
+.footer {
+    height: 300px;
+    padding-top: 30px;
+    background-color: #fff;
+}
+
+.copyright {
+    float: left;
+}
+
+    .copyright p {
+        font-size: 12px;
+        color: #666;
+        margin: 20px 0 15px 0;
+    }
+
+.app {
+    display: block;
+    width: 118px;
+    height: 34px;
+    border: 1px solid #00a4ff;
+    text-align: center;
+    line-height: 34px;
+    font-size: 16px;
+    color: #00a4ff;
+}
+
+.links {
+    float: right;
+}
+
+    .links dl {
+        float: left;
+        margin-left: 100px;
+    }
+
+    .links dt {
+        height: 35px;
+        font-size: 16px;
+        color: #333;
+    }
+
+    .links dd a {
+        font-size: 12px;
+        color: #333;
+    }
+
+        .links dd a:hover {
+            color: #b48be9;
+        }

@@ -1,0 +1,29 @@
+﻿/*字体*/
+.rank_head {
+    color: #b48be9;
+    font-size: 70px;
+    text-align: center;
+    font-weight: 800;
+    font-family: YouSheBiaoTiHei;
+}
+.view {
+    text-align:center;
+}
+#GridView1{
+    display:inline-block;
+    text-align:center;
+    font-size:25px;
+    font-weight:400;
+}
+table tr td{
+    width:183px;
+}
+.details{
+    height:1000px;
+}
+#DetailsView1 {
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
